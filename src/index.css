@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: #232325; /* or add it to the track */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #121214;
+  }
+}
